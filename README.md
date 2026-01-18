@@ -82,7 +82,7 @@ cd ps3dec```
 4. ```cargo build --release```
 
 the output would be at /target
-If on linux run ```chmod+x target/release/ps3dec``` to make ps3dec an executable.
+If on linux run ```chmod+x target/release/ps3decrs``` to make ps3dec an executable.
 
 <sub>a very small note around here, if there's an issue that is specifically related to a library  when it's targeting a platform I don't have much I can do about it, but you can fork the repository and find a replacement or a custom implementation, but this is unlikely as most of the libraries used are not reliant on any critical platform specific implementations and mostly standard ie: win api etc...</sup>
 
